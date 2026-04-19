@@ -3,7 +3,7 @@ import HeroScreenshots from "./HeroScreenshots";
 const trustItems = [
   "Free 50 suggestions",
   "No credit card needed",
-  "Style guide built in",
+  "Semantic copy search",
 ];
 
 function CheckIcon() {
@@ -44,8 +44,8 @@ export default function Hero() {
             className="text-5xl lg:text-[3.6rem] font-extrabold tracking-tight text-slate-900 leading-[1.1] mb-6 animate-fade-in-up"
             style={{ animationDelay: "80ms" }}
           >
-            Write better UI copy{" "}
-            <span className="gradient-text">right in Figma</span>
+            Your complete{" "}
+            <span className="gradient-text">microcopy assistant</span>
           </h1>
 
           {/* Subheadline */}
@@ -53,8 +53,8 @@ export default function Hero() {
             className="text-xl text-slate-500 leading-relaxed mb-10 animate-fade-in-up"
             style={{ animationDelay: "160ms" }}
           >
-            CopyWise suggests on-brand alternatives using your style guide and
-            copy library — powered by AI, applied in one click.
+            Get text suggestions that follow your rules and discover similar
+            copies in your product — right inside Figma.
           </p>
 
           {/* CTAs */}

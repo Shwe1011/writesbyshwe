@@ -17,10 +17,10 @@ const plans = [
       "New + Reuse tabs",
     ],
     excluded: [
+      "Semantic Copy Search",
       "Custom style guide",
-      "CSV copy library upload",
+      "XLSX copy library upload",
       "API sync",
-      "Multi-device login",
     ],
   },
   {
@@ -35,7 +35,8 @@ const plans = [
     included: [
       "Unlimited suggestions",
       "Custom style guide upload",
-      "CSV library (up to 5,000 rows)",
+      "Semantic Copy Search (beyond Ctrl+F)",
+      "XLSX library upload (up to 5,000 rows)",
       "API sync + auto-refresh",
       "Up to 3 devices",
       "Priority support",

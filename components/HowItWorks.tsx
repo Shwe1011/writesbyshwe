@@ -4,12 +4,12 @@ const steps = [
   {
     icon: (
       <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.955 11.955 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
       </svg>
     ),
-    title: "Install and set up",
+    title: "Set up your style guide & copy library",
     description:
-      "Add CopyWise from the Figma Community. Create a free account and either use the built-in style guide or paste in your own brand rules.",
+      "Paste your brand's style guide or choose the built-in default. Then upload your existing product copy as an XLSX, or sync via API — CopyWise will use it to surface semantically similar strings.",
   },
   {
     icon: (
@@ -17,9 +17,9 @@ const steps = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zm-7.518-.267A8.25 8.25 0 1120.25 10.5M8.288 14.212A5.25 5.25 0 1117.25 10.5" />
       </svg>
     ),
-    title: "Select any text node",
+    title: "Select a text node and add context",
     description:
-      "Click any text element in your design file. CopyWise instantly reads the content — no copy/paste, no tab-switching.",
+      "Click any text element in your Figma design. Provide optional context about the UI element — CopyWise reads the selection instantly, no copy/paste or tab-switching required.",
   },
   {
     icon: (
@@ -27,9 +27,9 @@ const steps = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     ),
-    title: "Apply the best suggestion",
+    title: "Pick the best copy and apply",
     description:
-      "Browse AI-generated options and semantically matched reuse suggestions from your library. One click applies it straight to the canvas.",
+      "Browse AI-generated suggestions that follow your style guide alongside semantically similar strings from your own product. One click applies it straight back to the text node on your canvas.",
   },
 ];
 
@@ -46,7 +46,7 @@ export default function HowItWorks() {
             Up and running in minutes
           </h2>
           <p className="text-slate-500 text-lg mt-4 max-w-xl mx-auto">
-            Three steps from install to your first AI-powered copy suggestion.
+            Three steps from install to your first AI-powered, consistency-checked copy suggestion.
           </p>
         </AnimatedSection>
 
@@ -57,12 +57,10 @@ export default function HowItWorks() {
           {steps.map((step, i) => (
             <AnimatedSection key={step.title} delay={i * 140}>
               <div className="flex flex-col items-center text-center group">
-                {/* Icon circle */}
                 <div className="relative mb-6 z-10">
                   <div className="w-[68px] h-[68px] bg-white border-2 border-blue-100 group-hover:border-[#4A90E2] rounded-2xl flex items-center justify-center text-[#4A90E2] shadow-sm transition-all duration-300 group-hover:shadow-md group-hover:shadow-blue-100">
                     {step.icon}
                   </div>
-                  {/* Step number badge */}
                   <span className="absolute -top-2.5 -right-2.5 w-6 h-6 bg-[#4A90E2] text-white text-[11px] font-extrabold rounded-full flex items-center justify-center shadow-sm">
                     {i + 1}
                   </span>
