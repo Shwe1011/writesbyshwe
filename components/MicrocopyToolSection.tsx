@@ -2,17 +2,17 @@ const features = [
   {
     icon: "🔍",
     title: "Automated string extraction",
-    desc: "Scrapes all UI strings from staging builds automatically — no manual copying, no missed copy.",
+    desc: "Scrapes UI strings from staging builds and sends them to technical writers Google Space for centralized review.",
   },
   {
     icon: "📨",
-    title: "AI review, rewrite & routing",
-    desc: "Extracted strings are AI-reviewed and rewritten for consistency, then routed to the technical writing team's Google Space for a final check before each release.",
+    title: "AI review and correction",
+    desc: "Evaluates extracted strings using a style guide–trained AI model, identifies inconsistencies, and generates improved, standardized copy suggestions.",
   },
   {
     icon: "✅",
     title: "Pre-release copy QA",
-    desc: "Catches microcopy issues before they reach production — reducing post-release copy fixes significantly.",
+    desc: "Creates structured review tasks with assigned owners, due dates, and status tracking — ensuring validated copy progresses to production.",
   },
 ];
 
