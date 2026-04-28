@@ -21,10 +21,10 @@ export default function PortfolioHero() {
           </h1>
 
           <p className="text-gray-400 text-lg lg:text-xl leading-relaxed mb-4 max-w-xl">
-            16+ years in technology, product and writing.
+            12+ years in technology, product and writing.
           </p>
           <p className="text-gray-500 text-base leading-relaxed mb-10 max-w-xl">
-            From help documentation and API references to SDK guides, UX microcopy, and AI-powered writing tools — with a focus on mentoring the next generation of tech writers.
+           I build product documentations, developer guides, and AI-powered writing systems — while mentoring the next generation of technical writers.
           </p>
 
           <div className="flex flex-wrap gap-3">
