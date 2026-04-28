@@ -7,12 +7,12 @@ const features = [
   {
     icon: "📨",
     title: "AI review and correction",
-    desc: "Evaluates extracted strings using a style guide–trained AI model, identifies inconsistencies, and generates improved, standardized copy suggestions.",
+    desc: "Evaluates extracted strings using a style guide trained AI model, identifies inconsistencies, and generates improved, standardized copy suggestions.",
   },
   {
     icon: "✅",
     title: "Pre-release copy QA",
-    desc: "Creates structured review tasks with assigned owners, due dates, and status tracking — ensuring validated copy progresses to production.",
+    desc: "Creates structured review tasks with assigned owners, due dates, ensuring validated copy progresses to production.",
   },
 ];
 
