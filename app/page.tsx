@@ -1,31 +1,27 @@
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import Features from "@/components/Features";
-import VideoDemo from "@/components/VideoDemo";
-import Screenshots from "@/components/Screenshots";
-import HowItWorks from "@/components/HowItWorks";
-import Pricing from "@/components/Pricing";
-import Testimonials from "@/components/Testimonials";
-import FAQ from "@/components/FAQ";
-import CTABanner from "@/components/CTABanner";
-import Footer from "@/components/Footer";
+import PortfolioNav from "@/components/PortfolioNav";
+import PortfolioHero from "@/components/PortfolioHero";
+import ProductDocsSection from "@/components/ProductDocsSection";
+import DeveloperDocsSection from "@/components/DeveloperDocsSection";
+import VideosSection from "@/components/VideosSection";
+import MicrocopyToolSection from "@/components/MicrocopyToolSection";
+import CopyWiseSection from "@/components/CopyWiseSection";
+import RAGBotSection from "@/components/RAGBotSection";
+import PortfolioFooter from "@/components/PortfolioFooter";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <PortfolioNav />
       <main>
-        <Hero />
-        <Features />
-        <VideoDemo />
-        <Screenshots />
-        <HowItWorks />
-        <Pricing />
-        <Testimonials />
-        <FAQ />
-        <CTABanner />
+        <PortfolioHero />
+        <ProductDocsSection />
+        <DeveloperDocsSection />
+        <VideosSection />
+        <MicrocopyToolSection />
+        <CopyWiseSection />
+        <RAGBotSection />
       </main>
-      <Footer />
+      <PortfolioFooter />
     </>
   );
 }
