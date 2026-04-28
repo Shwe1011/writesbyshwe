@@ -2,7 +2,7 @@ const highlights = [
   {
     icon: "📋",
     title: "Help Documentation",
-    desc: "Comprehensive end-user guides covering feature workflows, edge cases, and best practices for Kissflow's no-code work management platform — authored for both first-time users and power users.",
+    desc: "Comprehensive end-user guides covering feature workflows, edge cases and important notes — authored for readability and easy consumption.",
   },
   {
     icon: "✏️",
@@ -17,7 +17,7 @@ const highlights = [
   {
     icon: "📐",
     title: "Style Guide Authorship",
-    desc: "Developed Kissflow's internal writing style guide, standardizing tone, structure, and formatting across microcopy, product docs, and developer documentation.",
+    desc: "Authored the writing style guide for standardizing tone, structure, and formatting across microcopy, product docs, and developer documentation.",
   },
 ];
 
@@ -59,7 +59,15 @@ export default function ProductDocsSection() {
           >
             Explore the Documentation ↗
           </a>
-          <span className="text-gray-400 text-sm">Kissflow Community · Help Center</span>
+            <a
+           href="https://coda.io/d/Kissflow-Technical-Writing-Style-Guide_dtJb_1lbyFT/KISSFLOW-TECHNICAL-WRITING-STYLE-GUIDE_su4hghEp"
+           target="_blank"
+           rel="noopener noreferrer"
+           className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full border border-gray-300 hover:bg-gray-100 text-gray-800 text-sm font-semibold transition-colors"
+          >
+            View Style Guide ↗
+          </a>
+
         </div>
       </div>
     </section>
