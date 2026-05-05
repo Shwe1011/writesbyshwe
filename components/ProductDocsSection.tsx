@@ -75,7 +75,7 @@ export default function ProductDocsSection() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gray-900 hover:bg-gray-700 text-white text-sm font-semibold transition-colors"
           >
-            Explore the Documentation ↗
+            Explore Help Documentations ↗
           </a>
             <a
            href="https://coda.io/d/Kissflow-Technical-Writing-Style-Guide_dtJb_1lbyFT/KISSFLOW-TECHNICAL-WRITING-STYLE-GUIDE_su4hghEp"
