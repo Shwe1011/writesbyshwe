@@ -19,6 +19,24 @@ const highlights = [
     title: "Style Guide Authorship",
     desc: "Authored the writing style guide for standardizing tone, structure, and formatting across microcopy, product docs, and developer documentation.",
   },
+  {
+    title: "Website & Marketing Content",
+  icon: "🌐",
+  desc: (
+    <>
+      Created and managed website and marketing content, including risk and fraud-focused narratives. Built{" "}
+      <a
+        href="https://tutelar.io/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-indigo-600 hover:underline"
+      >
+        Tutelar
+      </a>{" "}
+      — a platform for secure transactions and fraud awareness — translating complex financial systems into clear, user-focused experiences.
+    </>
+      ),
+  },
 ];
 
 export default function ProductDocsSection() {
@@ -33,7 +51,7 @@ export default function ProductDocsSection() {
             Product Documentation
           </h2>
           <p className="text-gray-500 text-lg leading-relaxed">
-            Documentation isn&apos;t a deliverable — it&apos;s a product experience. Every article, tooltip, and release note I write is designed around one question: what does the user need to know right now, and how do I say it in the fewest possible words?
+            Documentation isn&apos;t a deliverable — it&apos;s a product and customer experience. From developer docs and UX microcopy to marketing content and risk communication, every piece I write is designed to answer one question: what does the user need right now, and how do I say it with clarity and precision?
           </p>
         </div>
 
