@@ -24,7 +24,7 @@ const highlights = [
   icon: "🌐",
   desc: (
     <>
-      Created and managed website and marketing content, including risk and fraud-focused narratives. Built{" "}
+      Created and managed website and marketing content, including risk and fraud-focused narratives. Built the website content for {" "}
       <a
         href="https://tutelar.io/"
         target="_blank"
