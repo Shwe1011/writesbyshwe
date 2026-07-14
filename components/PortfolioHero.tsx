@@ -11,7 +11,7 @@ export default function PortfolioHero() {
         <div className="lg:col-span-3">
           <p className="inline-flex items-center gap-2 text-indigo-400 text-xs font-semibold tracking-[0.18em] uppercase mb-8 border border-indigo-400/25 rounded-full px-4 py-1.5">
             <span className="w-1.5 h-1.5 rounded-full bg-indigo-400 animate-pulse-dot inline-block" />
-            Staff Technical Writer
+            Content Writer, Manager and Strategist
           </p>
 
           <h1 className="text-5xl lg:text-[4.25rem] font-bold text-white leading-[1.06] mb-7 tracking-tight">
