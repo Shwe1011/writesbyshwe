@@ -21,11 +21,11 @@ export default function PortfolioHero() {
           </h1>
 
           <p className="text-gray-400 text-lg lg:text-xl leading-relaxed mb-4 max-w-xl">
-            12+ years in technology, product and writing.
+            12+ years of experience driving content strategy, technical communication, and product marketing for enterprise software products across fintech, healthcare, IT, and edtech.
           </p>
           <p className="text-gray-500 text-base leading-relaxed mb-10 max-w-xl">
-           I build product documentations, developer guides, and AI-powered writing systems — while mentoring the next generation of technical writers.
-          </p>
+            I create compelling product narratives, websites, technical documentation, developer content, and go-to-market assets that help businesses educate, engage, and grow.
+         </p>
 
           <div className="flex flex-wrap gap-3">
             <a
