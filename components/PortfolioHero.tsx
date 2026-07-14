@@ -24,7 +24,7 @@ export default function PortfolioHero() {
             12+ years of experience driving content strategy, technical communication, and product marketing for enterprise software products across fintech, healthcare, IT, and edtech.
           </p>
           <p className="text-gray-500 text-base leading-relaxed mb-10 max-w-xl">
-            I create compelling product narratives, websites, technical documentation, developer content, and go-to-market assets that help businesses educate, engage, and grow.
+            I create compelling product narratives, go-to-market assets, technical documentation, and social media campaigns that help businesses educate, engage, and grow.
          </p>
 
           <div className="flex flex-wrap gap-3">
