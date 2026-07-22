@@ -6,7 +6,7 @@ const links = [
   { href: "#product-docs", label: "Product Docs" },
   { href: "#developer-docs", label: "Dev Docs" },
   { href: "#videos", label: "Videos" },
-  { href: "#microcopy-tool", label: "Microcopy Tool" },
+  { href: "#microcopy-tool", label: "AI Content Review" },
   { href: "#copywise", label: "CopyWise" },
   { href: "#ragbot", label: "RAG Bot" },
 ];
