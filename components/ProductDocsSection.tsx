@@ -19,6 +19,7 @@ const highlights = [
     title: "Style Guide Authorship",
     desc: "Authored the writing style guide for standardizing tone, structure, and formatting across microcopy, product docs, and developer documentation.",
   },
+  /*
   {
     title: "Website & Marketing Content",
   icon: "🌐",
@@ -37,6 +38,7 @@ const highlights = [
     </>
       ),
   },
+  */
 ];
 
 export default function ProductDocsSection() {
