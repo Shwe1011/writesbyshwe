@@ -7,10 +7,6 @@ const cards = [
     title: "SDK Guides",
     desc: "Step-by-step integration guides with real code samples, prerequisites, and troubleshooting paths — written for developers, not documentation readers.",
   },
-  {
-    title: "Integration Walkthroughs",
-    desc: "End-to-end documentation covering webhooks, OAuth flows, and third-party connectors — from concept to a working implementation.",
-  },
 ];
 
 const tools = [
@@ -72,7 +68,7 @@ export default function DeveloperDocsSection() {
 
             <div className="bg-indigo-50 border border-indigo-100 rounded-2xl p-6">
               <p className="text-indigo-700 text-sm leading-relaxed font-medium">
-                &ldquo;I work closely with engineers throughout the product development cycle — understanding requirements, validating edge cases, and contributing beyond copy.&rdquo;
+                &ldquo;I work closely with engineers throughout the product development life cycle — understanding requirements, validating edge cases, and contributing beyond copy.&rdquo;
               </p>
             </div>
           </div>
