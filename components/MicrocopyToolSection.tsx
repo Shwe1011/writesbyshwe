@@ -25,13 +25,13 @@ export default function MicrocopyToolSection() {
             04 — Internal Tool
           </p>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
-            Microcopy Review<br />Operations
+            AI Content Review<br />Operations
           </h2>
           <p className="text-gray-500 text-lg leading-relaxed mb-4">
             Post-release copy fixes are expensive — they require a code deployment to fix what should have been caught earlier. So I built a tool to catch them before the release.
           </p>
           <p className="text-gray-500 text-base leading-relaxed">
-            This internal automation webscrapes the testing build for UI strings and routes them directly to the writing team&apos;s workspace for review — making microcopy QA a standard part of the release cycle, not an afterthought.
+            This internal automation webscrapes the testing build for UI strings and routes them directly to the writing team&apos;s workspace for an AI review — where styleguide-aware LLM checks and creates a task for anomalies. This has saved 50% of manual review time and reduced 80% of content errors. 
           </p>
         </div>
 
