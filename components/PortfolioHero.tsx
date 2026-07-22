@@ -11,7 +11,7 @@ export default function PortfolioHero() {
         <div className="lg:col-span-3">
           <p className="inline-flex items-center gap-2 text-indigo-400 text-xs font-semibold tracking-[0.18em] uppercase mb-8 border border-indigo-400/25 rounded-full px-4 py-1.5">
             <span className="w-1.5 h-1.5 rounded-full bg-indigo-400 animate-pulse-dot inline-block" />
-            Content Writer, Manager and Strategist
+            Content Management and Strategist
           </p>
 
           <h1 className="text-5xl lg:text-[4.25rem] font-bold text-white leading-[1.06] mb-7 tracking-tight">
@@ -21,10 +21,10 @@ export default function PortfolioHero() {
           </h1>
 
           <p className="text-gray-400 text-lg lg:text-xl leading-relaxed mb-4 max-w-xl">
-            12+ years of experience driving content strategy, technical communication, and product marketing for enterprise software products across fintech, healthcare, IT, and edtech.
+            12+ years of experience in content management and technical writing for enterprise software products across fintech, healthcare, IT, and edtech.
           </p>
           <p className="text-gray-500 text-base leading-relaxed mb-10 max-w-xl">
-            I create compelling product narratives, go-to-market assets, technical documentation, and social media campaigns that help businesses educate, engage, and grow.
+            I create compelling product narratives, technical documentation, and go-to-market assets that help businesses educate, engage, and grow.
          </p>
 
           <div className="flex flex-wrap gap-3">
