@@ -22,7 +22,7 @@ export default function CopyWiseSection() {
         <div className="grid lg:grid-cols-2 gap-16 items-start mb-14">
           <div>
             <p className="text-indigo-600 text-xs font-semibold tracking-[0.2em] uppercase mb-4">
-              05 — Figma Plugin
+              07 — Figma Plugin
             </p>
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
               CopyWise
