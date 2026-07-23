@@ -16,10 +16,10 @@ export default function Home() {
       <PortfolioNav />
       <main>
         <PortfolioHero />
-        <ProductDocsSection />
-        <DeveloperDocsSection />
         <ContentMarketingSection />
         <SEOGeoSection />
+        <ProductDocsSection />
+        <DeveloperDocsSection />
         <VideosSection />
         <MicrocopyToolSection />
         <CopyWiseSection />
