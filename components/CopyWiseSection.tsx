@@ -3,15 +3,15 @@ import Image from "next/image";
 const cards = [
   {
     title: "AI-powered suggestions",
-    desc: "Generates contextual UI copy using the project's style guide and existing copy library as AI context — so suggestions are on-brand, not generic.",
+    desc: "Generates content adhering to writing guidelines, also surfaces similar contents already in use — either you keep consistency or evade redundancy, your choice.",
   },
   {
     title: "Published on Figma Community",
-    desc: "Available to the global Figma community of designers and product teams — bridging the gap between design and writing at the source.",
+    desc: "Available to the global Figma community — bridging the gap between designers and content writers.",
   },
   {
-    title: "Microcopy at the point of design",
-    desc: "Helps design teams write better copy right inside Figma, before handoff — not as a review step, but as part of the design process.",
+    title: "Brand-aware content at the point of design",
+    desc: "Helps teams create content for the organization's unique voice and tone — handy as a plugin.",
   },
 ];
 
