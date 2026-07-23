@@ -57,7 +57,7 @@ export default function SEOGeoSection() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="max-w-2xl mb-16">
           <p className="text-indigo-600 text-xs font-semibold tracking-[0.2em] uppercase mb-4">
-            04 — SEO, GEO & AI Content Optimization
+            02 — SEO, GEO & AI Content Optimization
           </p>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
             SEO, GEO & AI Content Optimization
