@@ -21,7 +21,6 @@ const groups = [
       "Case Studies",
       "Newsletters",
       "Knowledge Base Content",
-      "Resource Centers",
     ],
   },
   {
@@ -29,10 +28,8 @@ const groups = [
     items: [
       "Executive Ghostwriting",
       "LinkedIn Thought Leadership",
-      "Thought Leadership Articles",
       "Speaker Scripts",
       "Press Releases",
-      "Founder & Leadership Profiles",
       "Corporate Announcements",
     ],
   },
@@ -56,9 +53,7 @@ const groups = [
       "Academy Content",
       "Product Videos",
       "Brochures",
-      "Flyers",
       "Pitch Deck Content",
-      "One-pagers",
       "Battle Cards",
       "Sales Playbooks",
       "FAQs",
