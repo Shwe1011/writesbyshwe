@@ -4,7 +4,7 @@ export default function VideosSection() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="max-w-2xl">
           <p className="text-indigo-600 text-xs font-semibold tracking-[0.2em] uppercase mb-4">
-            03 — Video Content
+            05 — Video Content
           </p>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
             Tutorials &<br />Product Walkthroughs
