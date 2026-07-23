@@ -24,7 +24,7 @@ export default function DeveloperDocsSection() {
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           <div>
             <p className="text-indigo-600 text-xs font-semibold tracking-[0.2em] uppercase mb-4">
-              02 — Developer Documentation
+              04 — Developer Documentation
             </p>
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
               API, SDK &<br />Developer Guides
