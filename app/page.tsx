@@ -2,6 +2,8 @@ import PortfolioNav from "@/components/PortfolioNav";
 import PortfolioHero from "@/components/PortfolioHero";
 import ProductDocsSection from "@/components/ProductDocsSection";
 import DeveloperDocsSection from "@/components/DeveloperDocsSection";
+import ContentMarketingSection from "@/components/ContentMarketingSection";
+import SEOGeoSection from "@/components/SEOGeoSection";
 import VideosSection from "@/components/VideosSection";
 import MicrocopyToolSection from "@/components/MicrocopyToolSection";
 import CopyWiseSection from "@/components/CopyWiseSection";
@@ -16,6 +18,8 @@ export default function Home() {
         <PortfolioHero />
         <ProductDocsSection />
         <DeveloperDocsSection />
+        <ContentMarketingSection />
+        <SEOGeoSection />
         <VideosSection />
         <MicrocopyToolSection />
         <CopyWiseSection />
