@@ -18,9 +18,9 @@ export default function VideosSection() {
 
           <div className="space-y-3 mb-10">
             {[
-              "Scripted for clarity, not completeness",
-              "Focused on outcomes, not feature tours",
-              "Paired with help articles for multi-modal learning",
+              "Scripted for clarity, not just completeness",
+              "Focused on outcomes, not just feature tours",
+              "Paired with links to guides and community",
             ].map((item) => (
               <div key={item} className="flex items-start gap-3 text-sm text-gray-600">
                 <div className="w-1.5 h-1.5 rounded-full bg-indigo-500 flex-shrink-0 mt-1.5" />
