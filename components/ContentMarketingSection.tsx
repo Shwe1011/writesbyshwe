@@ -101,16 +101,25 @@ export default function ContentMarketingSection() {
           ))}
         </div>
 
-        <div className="flex items-center gap-4 mt-14">
-          <a
-            href="https://tutelar.io/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gray-900 hover:bg-gray-700 text-white text-sm font-semibold transition-colors"
-          >
-            My Work For Tutelar ↗
-          </a>
-        </div>
+        <div className="flex flex-wrap items-center gap-4 mt-14">
+    <a
+    href="https://tutelar.io/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gray-900 hover:bg-gray-700 text-white text-sm font-semibold transition-colors"
+    >
+    My Work for Tutelar ↗
+    </a>
+
+    <a
+    href="https://kissflow.com/resources/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gray-900 hover:bg-gray-700 text-white text-sm font-semibold transition-colors"
+     >
+    Content Marketing for Kissflow ↗
+  </a>
+</div>
       </div>
     </section>
   );
