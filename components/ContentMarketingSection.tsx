@@ -72,7 +72,7 @@ export default function ContentMarketingSection() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="max-w-2xl mb-16">
           <p className="text-indigo-600 text-xs font-semibold tracking-[0.2em] uppercase mb-4">
-            03 — Content-led Growth
+            01 — Content-led Growth
           </p>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
             Content Strategy & Growth
