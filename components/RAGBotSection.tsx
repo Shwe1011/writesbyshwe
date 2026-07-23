@@ -16,10 +16,10 @@ export default function RAGBotSection() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <p className="text-indigo-400 text-xs font-semibold tracking-[0.2em] uppercase mb-4">
-              06 — AI Tool
+              08 — Retrieval Augmented generation
             </p>
             <h2 className="text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
-              Documentation-Aware<br />RAG Chatbot
+              Documentation-Aware<br />RAG Engine
             </h2>
             <p className="text-gray-400 text-lg leading-relaxed mb-5">
               A retrieval-augmented generation chatbot I built independently using LangGraph — trained on live help documentation to give users instant, sourced answers without hallucinating.
